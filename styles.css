@@ -20,7 +20,7 @@ body {
 }
 
 img {
-    width: 100%;
+    max-width: 100%;
     max-height: 100%;
     display: block;
 }
@@ -119,21 +119,18 @@ h2, h3 {
 
 .gallery {
     max-width: 1300px;
-    width: 100%;
+    width: (100%/3 - 20rem);
 }
 
 .gallery li {
     float: left;
-    /* width: calc(100%/3 - 4rem); */
+    width: calc(100%/3 - 2rem);
 }
 
 .gallery li:nth-of-type(2) {
     margin: 0 2rem;
 }
 
-article {
-    margin-top: 5rem;
-}
 
 button {
     font-family: 'Cormorant Garamond', serif;
@@ -142,24 +139,22 @@ button {
     font-weight: 600;
     line-height: 2.9rem;
     background-color: rgba(24, 51, 153, 0.74);
-}
-
-.highlight-content button {
-    padding: 15px 30px;
+    padding: 10px 30px;
     color: white;
     text-transform: uppercase;
     border: 1px solid rgba(24, 51, 153, 0.74);
-    position: absolute;
-    bottom: 0;
 }
 
+
 .highlight {
+    margin-top: 5rem;
     position: relative;
 }
 
 .highlight img{
     float: left;
-    max-width: 30%;
+    max-width: 25%;
+    max-height: 300px;
 }
 
 .highlight-content {
@@ -169,34 +164,43 @@ button {
     text-align: left;
 }
 
-.highlight h3 {
+.highlight button {
+    position: absolute;
+    bottom: 0;
+}
+
+article h3 {
     margin: 0;
     text-align: left;
 }
 
+.trends {
+    margin-top: 10rem;
+}
 
 .trends img {
     float: right;
-    width: 50%;
-    position: absolute;
-    right: 0;
+    width: 50vw;
+    position: relative;
+    right: -10rem;
 }
 
-.trends-content {
+.trends-content,
+.scenes-content {
     text-align: left;
-    width: 50%;
+    max-width: calc(50% - 10rem);
+    padding: 5rem;
 }
 
 .scenes img {
     float: left;
-    width: 50%;
+    width: 50vw;
     position: relative;
     left: -10rem;
 }
 
 .scenes-content {
     float: left;
-    width: 50%;
 }
 /* Start of footer */
 
