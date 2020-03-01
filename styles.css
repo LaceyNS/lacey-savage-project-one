@@ -21,6 +21,7 @@ body {
 
 img {
     width: 100%;
+    max-height: 100%;
     display: block;
 }
 
@@ -46,7 +47,7 @@ h1 span {
 }
 
 .wrapper {
-    padding: 2% 10%;
+    padding: 2rem 10rem;
 }
 
 .wrapper > a {
@@ -67,8 +68,8 @@ ul {
 
 .menu ul {
     position: absolute;
-    right: 10%;
-    top: 2%;
+    right: 10rem;
+    top: 2rem;
 }
 
 .menu li {
@@ -86,7 +87,7 @@ ul {
 
 .socials ul {
     float: right;
-    padding-bottom: 2%;
+    padding-bottom: 2rem;
 }
 
 .socials li {
@@ -111,6 +112,7 @@ h2, h3 {
     font-family: 'Cormorant Garamond', serif;
     font-weight: 600;
     font-size: 4.9rem;
+    line-height: 4.9rem;
     text-align: center;
     text-transform: uppercase;
 }
@@ -122,15 +124,15 @@ h2, h3 {
 
 .gallery li {
     float: left;
-    width: calc(100%/3 - 2%);
+    /* width: calc(100%/3 - 4rem); */
 }
 
-.gallery li:nth-child(2) {
-    margin: 0 2%;
+.gallery li:nth-of-type(2) {
+    margin: 0 2rem;
 }
 
 article {
-    margin-top: 5%;
+    margin-top: 5rem;
 }
 
 button {
@@ -140,23 +142,44 @@ button {
     font-weight: 600;
     line-height: 2.9rem;
     background-color: rgba(24, 51, 153, 0.74);
-    padding: 5px 10px;
+}
+
+.highlight-content button {
+    padding: 15px 30px;
+    color: white;
+    text-transform: uppercase;
+    border: 1px solid rgba(24, 51, 153, 0.74);
+    position: absolute;
+    bottom: 0;
+}
+
+.highlight {
+    position: relative;
 }
 
 .highlight img{
     float: left;
     max-width: 30%;
-    height: 100%;
 }
 
 .highlight-content {
     float:left;
     max-width: 70%;
+    padding-left: 50px;
+    text-align: left;
 }
+
+.highlight h3 {
+    margin: 0;
+    text-align: left;
+}
+
 
 .trends img {
     float: right;
     width: 50%;
+    position: absolute;
+    right: 0;
 }
 
 .trends-content {
@@ -167,6 +190,8 @@ button {
 .scenes img {
     float: left;
     width: 50%;
+    position: relative;
+    left: -10rem;
 }
 
 .scenes-content {
