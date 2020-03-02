@@ -408,7 +408,7 @@ input[type="submit"] {
     .community i {
         font-size: 3rem;
     }
-    
+
     /* Stacking footer */
     .subscribe-form,
     .subscribe-form h4 {
@@ -419,7 +419,8 @@ input[type="submit"] {
 
     .contact,
     .footer-menu {
-        max-width: 50vw;
+        max-width: calc(50% - 5rem);
+        margin-top: 5rem;
     }
 }
 
