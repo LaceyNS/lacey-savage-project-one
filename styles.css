@@ -13,8 +13,6 @@ html {
 }
 
 body {
-    /* -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale; */
     font-family: 'Roboto', sans-serif;
     font-size: 2rem;
     font-weight: 300;
@@ -76,7 +74,6 @@ a .logo {
 }
 
 /* Start of menu nav */
-
 .bars {
     display: none;
 }
@@ -96,9 +93,7 @@ a .logo {
     color: white;
 }
 
-
 /* Start of socials menu */
-
 .socials ul {
     float: right;
     padding-bottom: 2rem;
@@ -122,7 +117,6 @@ a .logo {
 }
 
 /* Start of body */
-
 h2, 
 h3, 
 h4 {
@@ -142,7 +136,6 @@ h4 {
 }
 
 /* Start of gallery */
-
 .gallery {
     max-width: 1300px;
     width: (100%/3 - 20rem);
@@ -159,17 +152,15 @@ h4 {
 }
 
 /* Start of highlight article */
-
 .highlight {
     margin-top: 5rem;
     position: relative;
     min-height: 300px;
-    /* max-height: 400px; */
 }
 
 .highlight img {
-float: left;
-max-width: 25%;
+    float: left;
+    max-width: 25%;
 }
 
 .highlight-content {
@@ -203,7 +194,6 @@ article h2 {
 }
 
 /* Start of trends article */
-
 .trends {
     margin-top: 10rem;
 }
@@ -238,8 +228,8 @@ article h2 {
 .scenes p {
     padding: 2rem 0;
 }
-/* Start of footer */
 
+/* Start of footer */
 footer {
     background-color: #e3e3e3;
 }
@@ -285,10 +275,10 @@ footer ul {
 }
 
 /* Start of stay-updated footer */
-
 .stay-updated {
     padding: 8rem 0;
 }
+
 .stay-updated li {
     float: left; 
 }
@@ -305,8 +295,8 @@ input {
     border: none;
     padding: 15px 20px;
     float: left;
-
 }
+
 input[type="emailAddress"] {
     width: 60%;
 }
@@ -338,7 +328,6 @@ input[type="submit"] {
 }
 
 /* Start of copyright footer */
-
 .copyright {
     background-color: #acacac;
     text-align: center;
@@ -348,7 +337,6 @@ input[type="submit"] {
 
 @media (max-width: 1300px) {\
 /* Reduce font-sizes */
-
     body {
         font-size: 1.8rem;
         line-height: 2.4rem;
@@ -356,8 +344,8 @@ input[type="submit"] {
 
     h2,
     h3 {
-    font-size: 3.5rem;
-    line-height: 3.5rem;
+        font-size: 3.5rem;
+        line-height: 3.5rem;
     }
 
     h4 {
@@ -366,14 +354,13 @@ input[type="submit"] {
     }
 
     .community i {
-    font-size: 4rem;
+        font-size: 4rem;
     }
 
     button {
         font-size: 1.4rem;
         line-height: 2rem;
     }
-
 }
 
 @media (max-width: 1050px) {
@@ -382,8 +369,8 @@ input[type="submit"] {
         font-size: 10rem;
         line-height: 10rem;
     }
-    /* Stacking articles */
 
+    /* Stacking articles */
     article img:nth-of-type(1n),
     article h2:nth-of-type(1n),
     article div:nth-last-of-type(1n){
@@ -402,7 +389,6 @@ input[type="submit"] {
     }
 
     /*Resize community footer */
-
     .community {
         min-height: 150px;
     }
@@ -422,6 +408,7 @@ input[type="submit"] {
     .community i {
         font-size: 3rem;
     }
+    
     /* Stacking footer */
     .subscribe-form,
     .subscribe-form h4 {
@@ -552,6 +539,3 @@ input[type="submit"] {
         max-width: 25vw;
     }
 }
-
-/* @media (320px) {
-     */
