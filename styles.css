@@ -38,7 +38,7 @@ ul {
 
 /* Start of header */
 header {
-    background-image: url(one-magazine-assets/image-1.jpg);
+    background-image: url(assets/image-1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
@@ -236,7 +236,7 @@ footer {
 
 /* Start of community footer */
 .community {
-    background-image: url(one-magazine-assets/image-9.jpg);
+    background-image: url(assets/image-9.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 250px;
@@ -335,7 +335,7 @@ input[type="submit"] {
     padding: 1rem 0;
 }
 
-@media (max-width: 1300px) {\
+@media (max-width: 1300px) {
 /* Reduce font-sizes */
     body {
         font-size: 1.8rem;
